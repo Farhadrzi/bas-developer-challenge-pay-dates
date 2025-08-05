@@ -1,0 +1,29 @@
+{
+    "name": "payroll/calculator",
+    "description": "A payroll date calculator",
+    "type": "project",
+    "require": {
+        "php": "^8.2",
+        "nesbot/carbon": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PayrollCalculator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PayrollCalculator\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Farhad",
+            "email": "farhadrazzaghii@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
