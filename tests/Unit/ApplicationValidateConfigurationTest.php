@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace PayrollCalculator\Tests;
+namespace PayrollCalculator\Tests\Unit;
 
 use InvalidArgumentException;
 use PayrollCalculator\Application;

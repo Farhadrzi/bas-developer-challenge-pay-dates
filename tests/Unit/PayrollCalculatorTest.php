@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace PayrollCalculator\Tests;
+namespace PayrollCalculator\Tests\Unit;
 
 use Carbon\Carbon;
 use PayrollCalculator\PayrollCalculator;
